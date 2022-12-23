@@ -9,7 +9,11 @@ halfadder: a half adder that contains an and and xor gate and used in the full a
 addsub: a standard full adder that contains 2 half adders and an or gate.
 ripplecarry: the 16 bit ripple carry that includes 16 xor gates to determine the arithmetic operation and 16 full adders which will carry out the addition/subtraction of these numbers. In this case, subtraction is done by adding a positive integer and a negative integer.
 
-To test the file, use the testbench.sv file and the design.sv file in edaplayground. There is an option to run the ripplecarry module with delays and without delays by uncommenting and commenting the xor/and/or gates. Instructions are also stated in the file. 
-Make sure to comment out all modules in testbench.sv except the module to be tested. When pressing run in EDAplayground, testbench results will be displayed in the command shell at the bottom of the page. 
+Testing
+-To test the file, use the testbench.sv file and the design.sv file in edaplayground. 
+-There is an option to run the ripplecarry module with delays and without delays by uncommenting and commenting the xor/and/or gates. Instructions are also stated in the file. 
+-Make sure to comment out all modules in testbench.sv except the module to be tested. 
+-When pressing run in EDAplayground, testbench results will be displayed in the command shell at the bottom of the page. 
+-There are 10 test cases in memfile.dat that are pairs of 16 bit integers, these will be used in the testbench.sv file.
 
 Has the option to run with delays and without delays. Delays are calculated from values for xor/or/buf/and gates provided to me by Texas Instruments, am currently waiting for the link to reference the pages I was provided.
