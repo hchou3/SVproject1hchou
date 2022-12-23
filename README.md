@@ -17,3 +17,4 @@ Testing
 -There are 10 test cases in memfile.dat that are pairs of 16 bit integers, these will be used in the testbench.sv file.
 
 Has the option to run with delays and without delays. Delays are calculated from values for xor/or/buf/and gates provided to me by Texas Instruments, am currently waiting for the link to reference the pages I was provided.
+e
