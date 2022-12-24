@@ -28,3 +28,6 @@ Testing
 
 Has the option to run with delays and without delays. Delays are calculated from values for xor/or/buf/and gates provided to me by Texas Instruments, am currently waiting for the link to reference the pages I was provided.
 
+Yosys Synthesis: Comment out all test benches and comment out all modules in the design file except the one that is being synthesized.
+
+Icarus: Comment out all test benches except the test bench being used
